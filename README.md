@@ -137,3 +137,47 @@ qemu-system-x86_64 \
   -drive if=pflash,format=raw,file=/tmp/OVMF_VARS.fd \
   -cdrom <path/to/iso>
 ```
+
+## MokManager Screen
+
+Here are some pictures on how the final setup would look like. 
+
+Immediately on boot, you will see this screen. Press "OK" to continue.
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/932e0fcf-a513-4edc-a8e0-74e5e94200bd" />
+
+Then select "Enroll key from disk".
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/f0cfde3c-1446-4045-b2c1-9a1df7029186" />
+
+Proceed with the ISO's EFI image.
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/c078d134-6d5a-4d7a-a707-3c0dde53320a" />
+
+And then select the certificate you put into it.
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/a564dbae-f8ae-4ade-8203-d636a377b8e0" />
+
+Then press "Continue" to continue enrolling this certificate.
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/6d4827dd-74af-4ab1-b9a1-aeec2f83153a" />
+
+Press "Yes" to enroll keys.
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/3adb1e3b-8dd7-401d-8431-49da0af8326b" /> 
+
+And finally, select reboot to reboot with the certificate properly enrolled.
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/3f831762-0bfd-4efd-ac8b-3f0f95c22958" />
+
+
+Voila! Now you can boot into the ISO with secure boot on! And it is persistent across reboots too!
+
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/3adf66ec-793a-4103-a680-92523212cdca" />
+
+
+
+
+
+
+
