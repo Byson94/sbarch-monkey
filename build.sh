@@ -1851,7 +1851,6 @@ override_quiet="n"
 declare -i override_rm_work_dir=1
 override_work_dir="archiso-tmp"
 override_out_dir="./outdir"
-override_rm_work_dir=1
 set -- "."
 
 # get the absolute path representation of the first non-option argument
