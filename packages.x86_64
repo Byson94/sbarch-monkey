@@ -1,0 +1,10 @@
+base
+linux
+linux-firmware
+mkinitcpio
+mkinitcpio-archiso
+grub
+mtools
+dosfstools
+sudo
+vim

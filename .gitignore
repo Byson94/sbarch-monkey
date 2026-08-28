@@ -1,0 +1,5 @@
+/archiso-tmp/
+/outdir/
+/db.key
+/db.crt
+/db.cer
